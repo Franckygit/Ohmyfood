@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap");
+/* COULEURS */
+/* Couleurs à mix pour créer un dégradé : utile pour la couleur du bouton dans le header et du bouton commander,
+la couleur des coeurs sur les restaurants */
+/* Couleur des étiquettes "Nouveau" à placer en haut à droite des restaurants, du border-bottom des "Entrées, plats, desserts",
+de l'animation de sélection des plats */
+/* Background du FORM*/
+/* Background qui englobe le bouton + les deux phrases */
+/* Hover des boutons de la catégorie "Fonctionnement" */
+/* COULEURS */
+body {
+  text-align: center;
+}
+
+.logo {
+  font-family: "Shrikhand", "sans-serif", "Arial";
+}
+.logo img {
+  width: 40%;
+  padding: 10px 20px;
+}
+
+form {
+  background-color: #EAEAEA;
+  border-top: 2px solid black;
+  margin: 0px -20px 10px -20px;
+}
+form input {
+  font-family: "Roboto", "sans-serif", "Arial";
+  font-weight: 500;
+  border: none;
+  padding: 15px 0px;
+}
+form #lieu {
+  background-color: #EAEAEA;
+  padding-left: 4px;
+}
+form i {
+  color: black;
+  padding-left: 50px;
+}
+
+.header_sub {
+  background-color: #F6F6F6;
+  margin: -10px;
+  padding: 15px;
+  font-family: "Roboto", "sans-serif", "Arial";
+}
+.header_sub h3 {
+  font-weight: 300;
+}
+.header_sub button {
+  padding: 15px 25px;
+  margin: 15px;
+  margin-bottom: 25px;
+  border-radius: 25px;
+  background: #ff79da;
+  background: linear-gradient(176deg, #ff79da 45%, #9356dc 87%, #9356dc 100%);
+  color: #F2E1F8;
+  border: none;
+  box-shadow: 4px 2px 10px 2px lightgray;
+}
+.header_sub button a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #F2E1F8;
+  cursor: pointer;
+}
+
+section {
+  margin-bottom: 150px;
+}
+
+.work {
+  position: relative;
+  top: 80px;
+}
+
+.titre_work {
+  text-align: left;
+  font-weight: 800;
+  font-family: "Roboto";
+  padding-left: 5px;
+}
+
+.box_work {
+  border: none;
+  margin: 20px;
+  background-color: #F6F6F6;
+  border-radius: 25px;
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+.box_bubble {
+  background: #9356DC;
+  border: none;
+  border-radius: 50%;
+  height: 1.8em;
+  width: 1.8em;
+  position: relative;
+  top: 20px;
+  right: 14px;
+}
+.box_bubble span {
+  color: #FFF;
+  font-weight: 600;
+  position: relative;
+  top: 7px;
+}
+
+.box_text h3 {
+  font-family: "Roboto", sans-serif, Arial;
+  position: relative;
+  bottom: 20px;
+  font-size: 1em;
+  text-align: left;
+  position: relative;
+  left: 70px;
+}
+
+.restaurants {
+  background-color: #F6F6F6;
+  margin: -10px;
+  font-family: "Roboto", sans-serif, Arial;
+}
+
+.restaurant_titre {
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.restaurant_box {
+  border: none;
+  border-radius: 20px;
+  background-color: #FFF;
+  box-shadow: 7px 5px 5px lightgray;
+  text-align: left;
+  padding: 15px;
+  margin: 15px;
+  height: 250px;
+}
+.restaurant_box h3 {
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
