@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap');
+
+/* COULEURS */
+    $color-primary: #9356DC; $color-secondary: #FF79DA; /* Couleurs à mix pour créer un dégradé : utile pour la couleur du bouton dans le header et du bouton commander,
+    la couleur des coeurs sur les restaurants */
+    $color-tertiary: #99E2D0;           /* Couleur des étiquettes "Nouveau" à placer en haut à droite des restaurants, du border-bottom des "Entrées, plats, desserts",
+    de l'animation de sélection des plats */
+    
+    $backform: #EAEAEA;                 /* Background du FORM*/
+    $backsubheader: #F6F6F6;            /* Background qui englobe le bouton + les deux phrases */
+    $hover: #F5EDFF;                    /* Hover des boutons de la catégorie "Fonctionnement" */
+/* COULEURS */
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.logo {
+    font-family: "Shrikhand", "sans-serif", "Arial";
+    img {
+        width: 40%;
+        max-width: 100%;
+        
+        height: auto;
+        padding: 10px 20px;
+    }
+}
+
+form {
+    background-color: $backform;
+    border-top: 2px solid black;
+    margin: 0px -20px 10px -20px;
+    input {
+        font-family: "Roboto", "sans-serif", "Arial";
+        font-weight: 500;
+        border: none;
+        padding: 15px 0px;
+    }
+    #lieu {
+        background-color: #EAEAEA;
+        padding-left: 4px;
+    }
+    i {
+        color: black;
+        padding-left: 50px;
+    }
+}
+
+.header_sub {
+    background-color: $backsubheader;
+    margin: -10px;
+    padding: 15px;
+    font-family: "Roboto", "sans-serif", "Arial";
+    h3 {
+        font-weight: 300;
+    }
+    button {
+        padding: 15px 25px;
+        margin: 15px;
+        margin-bottom: 25px;
+        border-radius: 25px;
+        background: rgb(255,121,218);
+        background: linear-gradient(176deg, rgba(255,121,218,1) 45%, rgba(147,86,220,1) 87%, rgba(147,86,220,1) 100%);
+        color: #F2E1F8;
+        border: none;
+        box-shadow: 4px 2px 10px 2px lightgray;
+        a {
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #F2E1F8;
+            cursor: pointer;
+        }
+    }
+}
+section{
+    margin-bottom: 150px;
+}
+.work{
+    position: relative;
+    top: 80px;
+}
+.titre_work{
+    text-align: left;
+    font-weight: 800;
+    font-family: "Roboto";
+    padding-left: 5px;
+}
+.box_work {
+    border: none;
+    margin: 20px;
+    background-color: #F6F6F6;
+    border-radius: 25px;
+    box-shadow: 0px 5px 5px lightgray;
+}
+.box_bubble{
+    background: #9356DC;
+    border: none;
+    border-radius: 50%;
+    height: 1.8em;
+    width: 1.8em;
+    position: relative;
+    top: 20px;
+    right: 14px;
+    span{
+        color: #FFF;
+        font-weight: 600;
+        position: relative;
+        top: 7px;
+    }
+}
+.box_text h3{
+    font-family: "Roboto", sans-serif, Arial;
+    position: relative;
+    bottom: 20px;
+    font-size: 1em;
+    text-align: left;
+    position: relative;
+    left: 70px;
+}
+.restaurants{
+    background-color: #F6F6F6;
+    margin: -10px;
+    font-family: "Roboto", sans-serif, Arial;
+}
+.restaurant_titre{
+    text-align: left;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+.restaurant_box{
+    border: none;
+    border-radius: 20px;
+    background-color: #FFF;
+    box-shadow: 7px 5px 5px lightgray;
+    text-align: left;
+    padding: 15px;
+    margin: 15px;
+    height: 250px;
+    h3{
+        font-weight: 300;
+    }
+}
+.image img{
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px 25px 0px 0px;
+}
+footer{
+    background-color: black;
+    ul{
+        text-decoration: none;
+        text-align: left;
+        color: #FFF;
+    }
+}
+.footer_logo{
+    text-align: left;
+}
+
+@media screen and (max-width: 376px) {
+    body{
+        overflow-x: hidden;
+    }
+}
